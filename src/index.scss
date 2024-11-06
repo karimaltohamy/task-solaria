@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+svg {
+  width: 25px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}

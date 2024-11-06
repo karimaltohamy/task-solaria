@@ -1,0 +1,52 @@
+.polygon_filtering {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+
+  .top {
+    button {
+      color: gray;
+      font-size: 14px;
+
+      &.active {
+        color: #fff;
+
+        .dot {
+          display: block;
+          margin: auto;
+        }
+      }
+
+      .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: none;
+      }
+    }
+  }
+
+  .items {
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: 10px;
+
+    .item {
+      width: 100%;
+      padding: 8px 0;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0.8;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+}
